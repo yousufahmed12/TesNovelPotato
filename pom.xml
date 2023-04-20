@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ahmed.yousuf.test</groupId>
+	<artifactId>testing</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<repositories>
+		<repository>
+			<id>com.e-iceblue</id>
+			<name>e-iceblue</name>
+			<url>https://repo.e-iceblue.com/nexus/content/groups/public/</url>
+		</repository>
+<repository>
+    <id>AsposeJavaAPI</id>
+    <name>Aspose Java API</name>
+    <url>https://repository.aspose.com/repo/</url>
+</repository>
+	</repositories>
+	
+	
+	<dependencies>
+		<dependency>
+			<groupId>e-iceblue</groupId>
+			<artifactId>spire.doc.free</artifactId>
+			<version>5.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>language-en</artifactId>
+			<version>6.1</version>
+		</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.10-FINAL</version>
+</dependency>
+	</dependencies>
+</project>
