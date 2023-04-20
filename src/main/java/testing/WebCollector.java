@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 import com.spire.doc.Document;
 import com.spire.doc.FileFormat;
 
-public class Tester {
+public class WebCollector {
 	 public static void main(String args[])
 	    {
 		 String urlFirst = "https://www.novelcool.com/chapter/The-Extra-x27-s-Survival-Chapter-1/7330940/";
