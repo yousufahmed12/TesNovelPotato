@@ -9,14 +9,12 @@
 			<name>e-iceblue</name>
 			<url>https://repo.e-iceblue.com/nexus/content/groups/public/</url>
 		</repository>
-<repository>
-    <id>AsposeJavaAPI</id>
-    <name>Aspose Java API</name>
-    <url>https://repository.aspose.com/repo/</url>
-</repository>
+		<repository>
+			<id>AsposeJavaAPI</id>
+			<name>Aspose Java API</name>
+			<url>https://repository.aspose.com/repo/</url>
+		</repository>
 	</repositories>
-	
-	
 	<dependencies>
 		<dependency>
 			<groupId>e-iceblue</groupId>
@@ -28,10 +26,20 @@
 			<artifactId>language-en</artifactId>
 			<version>6.1</version>
 		</dependency>
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>3.10-FINAL</version>
-</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.2</version> <!-- Use the latest version available -->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
 	</dependencies>
 </project>
